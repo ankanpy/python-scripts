@@ -1,3 +1,7 @@
+# versions:
+# pip install moviepy==1.0.3
+# pip install Pillow==9.5.0
+
 from moviepy.editor import VideoFileClip, CompositeVideoClip, ColorClip
 
 def combine_videos_with_white_space(video_path1, video_path2, output_path, resize_width=None, resize_height=None, white_space_width=20):
